@@ -7,7 +7,7 @@ env:
   UNLOCK: ${{secrets.UNLOCK_PASSWORD}}
   
 jobs1:
-  actions_demo:
+  actions_23demo:
     runs-on: ubuntu-latest
     GLOBAL_VAR:
     name = jeremy
@@ -17,7 +17,7 @@ jobs1:
      rm deltefile.txt
 
 jobs2:
-  actions2'_demo:
+  actions232_demo:
      echo "newfile2" >> README.md
      chmod +x builtScript.sh
     
