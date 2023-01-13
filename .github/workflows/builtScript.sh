@@ -2,9 +2,15 @@
 
 on: [push]
 
+env:
+  GLOBAL_VAR: Add this new file to the repo!
+  UNLOCK: ${{secrets.UNLOCK_PASSWORD}}
+  
 jobs1:
   actions_demo:
     runs-on: ubuntu-latest
+    GLOBAL_VAR:
+    name = jeremy
     steps:
      touch newfile2.txt
      touch deltefile.txt
