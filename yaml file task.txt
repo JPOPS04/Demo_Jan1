@@ -1,5 +1,5 @@
-Order 1:
-  - price of drink: £4.50 
+Order_1:
+  - price_of_drink: £4.50 
    size: large
     type: Latte
     dairy free: true
@@ -7,8 +7,8 @@ Order 1:
     customer: John
     food orders: ["BLT Sandwich","Cookie"]
 
-Order 2:
-  - price of drink: £8.75 
+Order_2:
+  - price_of_drink: £8.75 
     size: small
     type: Strawbery Lemonade
     dairy free: true
@@ -16,8 +16,8 @@ Order 2:
   - customer: Emily
   - food orders: ["Chicken Wrap","Donut"]
 
-Order 3:
-  - price of drink: £6.25
+Order_3:
+  - price_of_drink: £6.25
     size: medium
     type: Espresso
     dairy free: false
