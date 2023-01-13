@@ -1,6 +1,6 @@
 name: Hello World of Github
 
-on:[push]
+on: [push]
 
 jobs:
   github_demo:
