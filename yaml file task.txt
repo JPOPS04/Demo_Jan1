@@ -1,0 +1,26 @@
+Order 1:
+  - price of drink: £4.50 
+   size: large
+   type: Latte
+   dairy free: true
+  - extras: ["whipped cream","two sugars"]
+   customer: John
+   food orders: ["BLT Sandwich","Cookie"]
+
+Order 2:
+  - price of drink: £8.75 
+    size: small
+    type: Strawbery Lemonade
+    dairy free: true
+  - extras: ["ice","extra strawberry"]
+  - customer: Emily
+  - food orders: ["Chicken Wrap","Donut"]
+
+Order 3:
+  - price of drink: £6.25
+    size: medium
+    type: Espresso
+    dairy free: false
+  - extras: ["no sugar","extra strong"]
+  - customer: Anna
+  - food orders: ["Veg Pie","Shortcake"]
