@@ -1,11 +1,11 @@
 Order 1:
   - price of drink: £4.50 
    size: large
-   type: Latte
-   dairy free: true
+    type: Latte
+    dairy free: true
   - extras: ["whipped cream","two sugars"]
-   customer: John
-   food orders: ["BLT Sandwich","Cookie"]
+    customer: John
+    food orders: ["BLT Sandwich","Cookie"]
 
 Order 2:
   - price of drink: £8.75 
