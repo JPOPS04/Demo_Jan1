@@ -1,0 +1,10 @@
+name: Hello World of Github
+
+on:[push]
+
+jobs:
+  github_demo:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello GitHub"
+    - run: touch test.txt
